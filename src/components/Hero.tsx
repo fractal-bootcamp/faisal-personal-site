@@ -47,7 +47,7 @@ const Hero = (props: HeroProps) => {
                 <img
                     src={imgUrl}
                     alt="Faisal profile picture."
-                    className="w-40 h-40 rounded-full object-cover shawod-lg"
+                    className="w-40 h-40 rounded-full object-cover shadow-lg"
                 />
             </div>
         </section>
