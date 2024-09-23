@@ -42,7 +42,7 @@ const Hero = (props: HeroProps) => {
             </div>
             <div 
                 id="hero-profile-pic"
-                className="max-w-2xl flex justfiy-center"
+                className="max-w-2xl flex justify-center"
             >
                 <img
                     src={imgUrl}
