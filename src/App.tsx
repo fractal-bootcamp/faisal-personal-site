@@ -15,8 +15,9 @@ const App = () => {
           <Hero 
             title="Welcome to my digital print!"
             subTitle="Hi, I'm Faisal 🤖."
-            body="Wanna be coder. I found out the best way to test the many thoughts I 
-            encounter during my day is through quick experiments, which in today's 
+            body="Current lifestage ( ) => {Wanna be a coder}. 
+            I found out the best way to test the many thoughts and ideas I 
+            encounter during my days are through quick experiments, which in today's 
             age translate to learning how to code."
             imgUrl="https://gravatar.com/avatar/ed770eed9c603f81ed46390292acee87?s=200&d=robohash&r=x"
           />

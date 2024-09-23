@@ -42,12 +42,12 @@ const Hero = (props: HeroProps) => {
             </div>
             <div 
                 id="hero-profile-pic"
-                className="image-section"
+                className="max-w-2xl flex justfiy-center"
             >
                 <img
                     src={imgUrl}
-                    alt="Profile picture."
-                    className="w-50 h-50 rounded-full object-cover shawod-lg"
+                    alt="Faisal profile picture."
+                    className="w-40 h-40 rounded-full object-cover shawod-lg"
                 />
             </div>
         </section>
