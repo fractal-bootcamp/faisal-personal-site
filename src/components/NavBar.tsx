@@ -3,9 +3,16 @@ import { FileTreeDemo } from "./FileTree"
 const NavBar = () => {
 
     return (
-        <div className="navbar bg-base-100">
-            <div className="flex-1">
-                <a className="btn btn-ghost text-xl">About</a>
+        <section 
+            id="navbar"
+            className="bg-base-100 w-64 h-full shadow-lg"
+        >
+            {/* Navbar style Filetree */}
+            
+            
+            {/* Navigation content */}
+            <div className="p4">
+                <a className="btn btn-ghost text-xl mb-4 block">About</a>
             </div>
             <div className="flex-none">
                 <button className="btn btn-square btn-ghost">
@@ -23,7 +30,7 @@ const NavBar = () => {
                     </svg>
                 </button>
              </div>
-        </div>
+        </section>
     )
 }
 

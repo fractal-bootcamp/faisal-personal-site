@@ -20,8 +20,8 @@ interface FlickeringGridProps {
 }
 
 const FlickeringGrid: React.FC<FlickeringGridProps> = ({
-  squareSize = 4,
-  gridGap = 6,
+  squareSize = 2.5,
+  gridGap = 8,
   flickerChance = 0.3,
   color = "rgb(0, 0, 0)",
   width,
@@ -175,7 +175,7 @@ const FlickeringGrid: React.FC<FlickeringGridProps> = ({
         width: width || "100%",
         height: height || "100%",
         position: "absolute",
-        background:"white",
+        background:"#FFFFFF",
         zIndex: -1
       }}
       width={width}
