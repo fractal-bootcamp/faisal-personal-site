@@ -1,13 +1,21 @@
+interface ProjectsProps {
+    title: string,
 
+}
 
-const Projects = () => {
+const Projects = (props: ProjectsProps) => {
+    const { title } = props
 
     return (
-        <section className="projects">
-            <div className="projects-title">
-                <h2>Projects = (thoughtExperiments) = {}</h2>
-            </div>
-
+        <section 
+            id="projects"
+            className="flex flex-col justify-center items-center py-10"
+        >
+            <header id="project-title">
+                <h2 className="text-2xl font-bold mb-4">
+                    {title}
+                </h2>
+            </header>
         </section>
     )
 }
